@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@600&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #b379ec;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+
+
+    
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.clicker{
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+
+
+.clicker button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding:4cap 8rem;
+    border-width: 3px;
+    border-style: none;
+    border-radius: 67px;
+    border-color: #4d2b6f;
+    background: #9955dd;
+    box-shadow:  40px 22px 64px #4d2b6f,12px -12px 44px #e680ff;
+    margin: 200px;
+
+
+}
+
+#btn_text { 
+    color: #f3c2ff;
+    background-color:#df6edf ;   
+
+}
+
+
+
+
+.btn_text:active {  
+    color: #f38cf3;
+    text-decoration: dashed;
+    background: #632f98;
+    box-shadow:  -22px 22px 44px #934dd8,22px -22px 44px #9547e4;          /* button hover effect*/
+
+}
+
+.counter{                               /*  for counting clicks   */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    grid-template-rows: 2fr;
+    background-color: #934dd8;
+    width: 200px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 60px;
+    color: aliceblue;
+
+}                          
+
+
+
